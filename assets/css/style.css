@@ -1,0 +1,25 @@
+#titleBlock{
+    text-align:center;
+    color:white;
+    background:black;
+    padding: 60px;
+}
+#mainContent{
+    margin:10px auto;
+}
+.trainDisplay{
+    margin:0px auto
+}
+#currentTrains{
+    border:2px solid black;
+}
+.inputLabel{
+    width:100%;
+}
+#addTrain{
+    border:2px solid black;
+
+}
+.formBox{
+    padding:20px;
+}
