@@ -8,18 +8,31 @@
     margin:10px auto;
 }
 .trainDisplay{
+    padding:10px;
     margin:0px auto
 }
 #currentTrains{
     border:2px solid black;
+    
 }
 .inputLabel{
     width:100%;
 }
 #addTrain{
     border:2px solid black;
+    
 
 }
 .formBox{
     padding:20px;
+}
+.heading{
+    padding:5px;
+    border-bottom: 2px solid black;
+    color:white;
+    background:black;
+    
+}
+.headTrainDisplay{
+    font-weight: bold;
 }
