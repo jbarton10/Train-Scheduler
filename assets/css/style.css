@@ -1,10 +1,14 @@
+body{
+    background-image:url(./../images/country-train.jpeg);
+}
 #titleBlock{
     text-align:center;
     color:white;
-    background:black;
+    text-shadow: 2px 2px 4px black;
     padding: 60px;
 }
 #mainContent{
+    
     margin:10px auto;
 }
 .trainDisplay{
@@ -13,6 +17,8 @@
 }
 #currentTrains{
     border:2px solid black;
+    opacity: 0.7;
+    background:white;
     
 }
 .inputLabel{
@@ -20,6 +26,9 @@
 }
 #addTrain{
     border:2px solid black;
+    opacity: 0.7;
+    background:white;
+    
     
 
 }
