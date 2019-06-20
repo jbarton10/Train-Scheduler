@@ -29,22 +29,24 @@
                     <p>Current Train Schedule</p>
                 </div>
 
-                <div class="row, trainDisplay">
+                <div class="trainDisplay">
                     <!-- <div class="row"><div class="col-2"></div><div class="col-2"></div><div class="col-2"></div><div class="col-2"></div><div class="col-2"></div> -->
                     <div class = "row headTrainDisplay">
-                        <div class="col">Train Name</div>
-                        <div class="col">Destination</div>
-                        <div class="col">Frequency (min)</div>
-                        <div class="col">Next Arrival</div>
-                        <div class="col">Minutes Away</div>
+                        <div class="col-2">Train Name</div>
+                        <div class="col-2">Destination</div>
+                        <div class="col-2">Frequency (min)</div>
+                        <div class="col-2">Next Arrival</div>
+                        <div class="col-2">Minutes Away</div>
                     </div>
+                    <!-- Output should show up here -->
+                    
                 </div>
             </div>
             <br><br>
 
             <!-- The train form for adding more trains -->
             <div id="addTrain">
-                <div class="row, heading">Add Train</div>
+                <div class="row heading">Add Train</div>
                 <div class="row formBox">
 
                     <div class="inputLabel">Train Name</div>
@@ -69,6 +71,8 @@
 
                     <button type="button" class="btn btn-outline-danger submitButton">Submit</button>
 
+                    
+                    <button type="button" class="btn btn-outline-danger clearButton">Clear Trains</button>
 
                 </div>
             </div>

@@ -25,6 +25,7 @@
 }
 .formBox{
     padding:20px;
+    position: relative;
 }
 .heading{
     padding:5px;
@@ -35,4 +36,15 @@
 }
 .headTrainDisplay{
     font-weight: bold;
+}
+.row{
+    margin:0px;
+}
+.trainContent{
+    border-bottom: 1px black thin;
+}
+.clearButton{
+    position: absolute;
+    bottom: 20px;
+    right:20px;
 }
